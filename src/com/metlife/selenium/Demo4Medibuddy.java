@@ -1,19 +1,26 @@
 package com.metlife.selenium;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.time.Duration;
 
 public class Demo4Medibuddy {
 
     public static void main(String[] args) {
 
         WebDriver driver=new ChromeDriver();
-        driver.get("https://www.medibuddy.in/");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
-        //click on login
+        driver.get("https://www.medibuddy.in/"); //wait for page load to complete
 
-        //enter phone number as 787887878
+        //findElement--> checks for presence of element in 0.5s
+        driver.findElement(By.linkText("Login")).click();
 
+        driver.findElement(By.id("phone")).sendKeys("78788874");
 
+        //will resume at 3:30 PM IST
     }
 }
