@@ -25,3 +25,15 @@ Example: Verify in chrome -- ctrl+f
 
 //input[contains(@id,'UserFirstName')]
 //span[contains(text(),'first name')]
+
+//b[contains(text(),'phpMyAdmin')]
+
+
+
+//img[@alt='Go']
+//img[contains(@src,'go.gif')]
+
+
+
+
+["ererererwerwewrs","jkjjhhjjhjhhjhj"]
