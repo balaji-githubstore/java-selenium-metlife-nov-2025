@@ -9,7 +9,12 @@ Relative XPath
 //tagname[text()='']
 
 
+Grouping the xpath - starts at 1
+(//button[text()='Sign Up'])[2]
+
+
 Example: Verify in chrome -- ctrl+f
 //input[@value='-1'] 
 
 //label[text()='Custom']
+//button[text()='Sign Up']

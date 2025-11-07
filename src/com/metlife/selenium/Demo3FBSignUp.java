@@ -2,7 +2,10 @@ package com.metlife.selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
 
 public class Demo3FBSignUp {
 
@@ -23,5 +26,19 @@ public class Demo3FBSignUp {
 
         //19 Dec 1998
 
+        //19
+        Select selectDay=new Select(driver.findElement(By.id("day")));
+        selectDay.selectByVisibleText("19");
+
+        Select selectMonth=new Select(driver.findElement(By.id("month")));
+        selectMonth.selectByVisibleText("Dec");
+//        selectMonth.selectByValue("12");
+//        selectMonth.selectByIndex(11);
+
+        //1998
+        Select selectYear=new Select(driver.findElement(By.xpath("//select[@title='Year']")));
+        selectYear.selectByVisibleText("1998");
+
+        driver.findElement(By.name("websubmit")).click();
     }
 }
