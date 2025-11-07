@@ -12,7 +12,7 @@ public class Demo2FBLogin {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.facebook.com/");
 
-//        By locator = By.id("email");
+        By locator = By.id("email");
 //        WebElement element = driver.findElement(locator);
 //        element.sendKeys("hello123232@gmail.com");
 

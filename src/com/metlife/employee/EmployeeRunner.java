@@ -12,7 +12,8 @@ public class EmployeeRunner {
         Employee emp2=new Employee();
         Employee emp3=new Employee();
 
-        Employee emp4=Employee.getEmployeeInstance();
+//        Employee emp4=Employee.getEmployeeInstance();
+//        Employee.printEmployeeRecord(emp4);
 
 
         //(101, Saul, 8000, Good, Metlife)

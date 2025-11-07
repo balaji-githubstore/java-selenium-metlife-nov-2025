@@ -18,7 +18,10 @@ public class Employee {
         System.out.println("------------------");
     }
 
-
+//    public static void printCompanyName()
+//    {
+//        System.out.println(Employee.companyName);
+//    }
 
     /**
      * Not effient
