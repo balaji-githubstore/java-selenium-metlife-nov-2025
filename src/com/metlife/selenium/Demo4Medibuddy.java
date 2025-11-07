@@ -21,6 +21,5 @@ public class Demo4Medibuddy {
 
         driver.findElement(By.id("phone")).sendKeys("78788874");
 
-        //will resume at 3:30 PM IST
     }
 }

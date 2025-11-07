@@ -30,5 +30,7 @@ public class Demo2FBLogin {
         //click on login
         driver.findElement(By.name("login")).click();
 
+        driver.quit();
+
     }
 }

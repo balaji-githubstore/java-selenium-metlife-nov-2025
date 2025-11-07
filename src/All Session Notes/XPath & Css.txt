@@ -8,6 +8,10 @@ Relative XPath
 //tagname[@attribute='']
 //tagname[text()='']
 
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
 
 Grouping the xpath - starts at 1
 (//button[text()='Sign Up'])[2]
@@ -18,3 +22,6 @@ Example: Verify in chrome -- ctrl+f
 
 //label[text()='Custom']
 //button[text()='Sign Up']
+
+//input[contains(@id,'UserFirstName')]
+//span[contains(text(),'first name')]
