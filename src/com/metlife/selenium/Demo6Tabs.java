@@ -38,6 +38,9 @@ public class Demo6Tabs {
         String actualHeader=driver.findElement(By.xpath("//h1[contains(text(),'Welcome')]")).getText();
         System.out.println(actualHeader);
 
-        driver.quit();  //check what happens
+        driver.close();  //check what happens
+
+        driver.switchTo().window(windows.get(0));
+        System.out.println(driver.getTitle());
     }
 }

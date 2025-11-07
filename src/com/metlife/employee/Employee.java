@@ -7,9 +7,13 @@ public class Employee {
     public String performance;
     public static String companyName;
 
-    public void displayEmployeeRecord()
+    public Employee(int id)
     {
-        //here we can call all non-static and static variable
+        this.id=id;
+    }
+
+    public void displayEmployeeRecord() {
+        //here we can call all non-static and static variabl
         System.out.println(id);
         System.out.println(name);
         System.out.println(salary);
@@ -25,10 +29,10 @@ public class Employee {
 
     /**
      * Not effient
+     *
      * @param e
      */
-    public static void printEmployeeRecord(Employee e)
-    {
+    public static void printEmployeeRecord(Employee e) {
         //cannot call non-static variable
         System.out.println(e.id);
         System.out.println(e.name);
@@ -39,10 +43,9 @@ public class Employee {
     }
 
 
-    public static Employee getEmployeeInstance()
-    {
-        Employee e=new Employee();
-        return e;
-    }
+//    public static Employee getEmployeeInstance() {
+//        Employee e = new Employee();
+//        return e;
+//    }
 
 }

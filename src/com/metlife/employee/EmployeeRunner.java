@@ -8,9 +8,10 @@ public class EmployeeRunner {
 
         Employee.companyName="Metlife";
 
-        Employee emp1=new Employee();
-        Employee emp2=new Employee();
-        Employee emp3=new Employee();
+        Employee emp1=new Employee(101);
+        Employee emp2=new Employee(102);
+        Employee emp3=new Employee(103);
+        Employee emp4=new Employee(104);
 
 //        Employee emp4=Employee.getEmployeeInstance();
 //        Employee.printEmployeeRecord(emp4);
