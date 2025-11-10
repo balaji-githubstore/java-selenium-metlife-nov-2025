@@ -19,7 +19,7 @@ public class Demo7Alert {
         driver.get("https://netbanking.hdfcbank.com/netbanking/IpinResetUsingOTP.htm");
 
         //click on Go
-        //driver.findElement(By.xpath("//img[@alt='Go']")).click();
+        driver.findElement(By.xpath("//img[@alt='Go']")).click();
 
         //wait for alert present - explicit wait
         WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));

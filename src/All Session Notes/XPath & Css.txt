@@ -29,7 +29,6 @@ Example: Verify in chrome -- ctrl+f
 //b[contains(text(),'phpMyAdmin')]
 
 
-
 //img[@alt='Go']
 //img[contains(@src,'go.gif')]
 

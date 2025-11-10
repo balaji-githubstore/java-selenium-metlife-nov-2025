@@ -16,7 +16,7 @@ public class Demo4Medibuddy {
 
         driver.get("https://www.medibuddy.in/"); //wait for page load to complete
 
-        //findElement--> checks for presence of element in 0.5s
+        //findElement--> checks for presence of element in 0.5s/500ms
         driver.findElement(By.linkText("Login")).click();
 
         driver.findElement(By.id("phone")).sendKeys("78788874");

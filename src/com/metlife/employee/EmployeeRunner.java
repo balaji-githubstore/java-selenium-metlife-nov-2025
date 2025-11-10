@@ -6,12 +6,13 @@ public class EmployeeRunner {
 
     public static void main(String[] args) {
 
+
         Employee.companyName="Metlife";
 
         Employee emp1=new Employee(101);
-        Employee emp2=new Employee(102);
-        Employee emp3=new Employee(103);
-        Employee emp4=new Employee(104);
+        Employee emp2=new Employee(102,"kim");
+        Employee emp3=new Employee("ken",103);
+        Employee emp4=new Employee(1.2);
 
 //        Employee emp4=Employee.getEmployeeInstance();
 //        Employee.printEmployeeRecord(emp4);
@@ -30,9 +31,9 @@ public class EmployeeRunner {
         emp2.performance="Excellent";
 
 
-        Employee.printEmployeeRecord(emp1);
-        Employee.printEmployeeRecord(emp2);
-        Employee.printEmployeeRecord(emp3);
+//        Employee.printEmployeeRecord(emp1);
+//        Employee.printEmployeeRecord(emp2);
+//        Employee.printEmployeeRecord(emp3);
 
         emp1.displayEmployeeRecord();
         emp2.displayEmployeeRecord();
