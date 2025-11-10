@@ -17,6 +17,10 @@ Grouping the xpath - starts at 1
 (//button[text()='Sign Up'])[2]
 
 
+white-space - sometimes text() may not work
+//tagname[normalize-space()='']
+//tagname[contains(normalize(),'')]
+
 Example: Verify in chrome -- ctrl+f
 //input[@value='-1'] 
 
@@ -32,7 +36,9 @@ Example: Verify in chrome -- ctrl+f
 //img[@alt='Go']
 //img[contains(@src,'go.gif')]
 
-
+//frame[@name='login_page']
+//frame[contains(@src,'RSNBLogin')]
+//button[normalize-space()='Accept All']
 
 
 ["ererererwerwewrs","jkjjhhjjhjhhjhj"]
