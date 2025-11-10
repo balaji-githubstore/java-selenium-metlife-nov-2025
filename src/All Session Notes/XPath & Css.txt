@@ -21,6 +21,26 @@ white-space - sometimes text() may not work
 //tagname[normalize-space()='']
 //tagname[contains(normalize(),'')]
 
+Upload
+//input[@type='file']
+
+
+And-Or
+//tagname[@attribute='' and @attribute='']
+//span[normalize-space()='Visit Our Support Center' and @class='subnav-title']
+//input[@type='file' and @id='edit-field-additional-document-0-upload']
+
+Parent-Child
+
+
+Ancestor-descendant
+
+Following-Preceding
+
+
+Following sibling
+
+
 Example: Verify in chrome -- ctrl+f
 //input[@value='-1'] 
 
