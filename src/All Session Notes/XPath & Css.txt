@@ -63,5 +63,54 @@ Example: Verify in chrome -- ctrl+f
 
 ["ererererwerwewrs","jkjjhhjjhjhhjhj"]
 
+---------------------------
+CSS selector - https://www.w3schools.com/cssref/css_selectors.php
+#id
+.classname
+tagname[attribute='']
+[attribute='']
+
+Example:
+#email
+button[name='login']
+
+
+
+
+
+
 -------------------------
+
+saul, saul123, Invalid credentials
+kim, kim123, Invalid credentials
+
+
+
+{firstName=john,middleName=w,lastName=wick}
+{firstName=john1,middleName=w1,lastName=wick1}
+
+
+
+list=[ {firstName=john,middleName=w,lastName=wick}, {firstName=john1,middleName=w1,lastName=wick1}]
+
+
+list.get(0)
+
+
+-------------------------
+
+peter,peter123
+john,john123
+ken,ken123
+
+{{peter,peter123},{john,john123},{ken,ken123}}
+
+
+{{saul,saul123,Invalid credentials},{kim,kim123,Invalid credentials}}
+
+
+
+--------------------------------------
+
+created branch - b1-no-automation - at 4:05 PM IST - a copy from existing checkout (master) branch will be made
 
