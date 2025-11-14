@@ -23,6 +23,9 @@ public class Demo1ArrayList {
 
         System.out.println(colors.get(1));
 
-
+        for(String color : colors)
+        {
+            System.out.println(color);
+        }
     }
 }

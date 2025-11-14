@@ -19,7 +19,7 @@ Grouping the xpath - starts at 1
 
 white-space - sometimes text() may not work
 //tagname[normalize-space()='']
-//tagname[contains(normalize(),'')]
+//tagname[contains(normalize-space(),'')]
 
 Upload
 //input[@type='file']
@@ -62,3 +62,6 @@ Example: Verify in chrome -- ctrl+f
 
 
 ["ererererwerwewrs","jkjjhhjjhjhhjhj"]
+
+-------------------------
+

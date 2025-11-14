@@ -27,7 +27,7 @@ class ChromeDriver123
 public class Demo1Runner {
     public static void main(String[] args) {
 
-    ChromeDriver123 driver=new ChromeDriver123("");
+    ChromeDriver123 driver=new ChromeDriver123("");  //memory will be allocated for all non-static member in parent and child class
     driver.get("http://google.com");
 
     }

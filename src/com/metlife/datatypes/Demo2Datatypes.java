@@ -40,6 +40,11 @@ public class Demo2Datatypes {
         System.out.println(colors[1]);
         System.out.println(colors[2]);
 
+        String[] colors1={"jack","peter","ken"};
+        int[] nums={45,55,78,454};
+
+        System.out.println(colors1.length);
+        System.out.println(colors1[1]);
 
         int radius=10;
 

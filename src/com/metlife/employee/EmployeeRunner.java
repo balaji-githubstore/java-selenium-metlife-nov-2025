@@ -2,6 +2,8 @@ package com.metlife.employee;
 
 import com.metlife.formulae.Area;
 
+import java.util.ArrayList;
+
 public class EmployeeRunner {
 
     public static void main(String[] args) {
@@ -39,7 +41,24 @@ public class EmployeeRunner {
         emp2.displayEmployeeRecord();
         emp3.displayEmployeeRecord();
 
+    Employee[] arr=new Employee[4];
+    arr[0]=emp1;
+    arr[1]=emp2;
 
+        System.out.println(arr[1].id);
+        System.out.println(emp2.id);
+        System.out.println(arr.length);
 
+        ArrayList<Employee> list=new ArrayList<>();
+        list.add(emp1);
+        list.add(emp2);
+
+        System.out.println(list.size());
+        System.out.println(list.get(1).id);
+
+        for(Employee e : list)
+        {
+            System.out.println(e.id);
+        }
     }
 }

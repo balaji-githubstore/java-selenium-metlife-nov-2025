@@ -8,7 +8,7 @@ public class Demo2ArrayList {
 
     public static void main(String[] args) {
 
-        List<Integer> colors=new ArrayList<>();
+        ArrayList<Integer> colors=new ArrayList<>();
 
         colors.add(55);
         colors.add(77);
@@ -17,6 +17,9 @@ public class Demo2ArrayList {
         System.out.println(colors.size());
 
         System.out.println(colors.get(1));
+
+
+
 
 
     }

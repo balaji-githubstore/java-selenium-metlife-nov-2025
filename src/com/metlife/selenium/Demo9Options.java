@@ -14,7 +14,8 @@ public class Demo9Options {
         ChromeOptions options=new ChromeOptions();
         options.addArguments("start-maximized");
         options.addArguments("--disable-notifications");
-        //changing download dir
+        //options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+//        options.setAcceptInsecureCerts(true);
 
         WebDriver driver=new ChromeDriver(options);
         driver.manage().window().maximize();
